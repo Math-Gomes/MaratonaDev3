@@ -1,0 +1,1 @@
+Aplicação web com o tema Doação de Sangue criada na MaratonaDev da [Rocketseat](https://rocketseat.com.br/), um mini-curso online para proporcionar um start no desenvolvimento web.
