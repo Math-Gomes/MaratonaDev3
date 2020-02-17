@@ -77,7 +77,8 @@ section.form {
 }
 
 form input,
-form button {
+form button,
+form select {
     width: 100%;
     margin-bottom: 4px;
     padding: 8px 16px;
@@ -85,12 +86,23 @@ form button {
     border: 1px #ffffff88 solid;
 }
 
-form input {
+form input,
+form select {
     background-color: transparent;
 }
 
-form input::placeholder {
+form input::placeholder,
+select:required:invalid {
     color: #ffffffaa;
+}
+
+option[value=""][disabled] {
+    display: none;
+}
+
+option {
+    color: #000000cc;
+    background-color: #ffffff88;
 }
 
 form button {
@@ -109,7 +121,7 @@ form button {
 
 .blood::before {
     content: "";
-    background-color: #ff4f4f11;
+    background-color: #ff4f4f33;
     width: 40px;
     height: 40px;
     position: absolute;
