@@ -1,0 +1,28 @@
+{
+  "name": "MaratonaDev",
+  "version": "1.0.0",
+  "description": "Aplicação web com o tema Doação de Sangue criada na MaratonaDev da [Rocketseat](https://rocketseat.com.br/), um mini-curso online para proporcionar um start no desenvolvimento web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Math-Gomes/MaratonaDev3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Math-Gomes/MaratonaDev3/issues"
+  },
+  "homepage": "https://github.com/Math-Gomes/MaratonaDev3#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
